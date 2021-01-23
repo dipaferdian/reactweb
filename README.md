@@ -1,3 +1,7 @@
+#Notice
+
+my personal folder reusable pieces of react code for every other open source developer
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
