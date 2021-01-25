@@ -7,7 +7,7 @@ import { Provider } from "react-redux";
 import { createStore, applyMiddleware} from "redux";
 import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from "redux-thunk";
-import getreducer_Food from './redux/reducers/food_reducer/food_reducer'
+import getreducer_Food from './redux/reducers/foods/food_reducer'
 
 const store = createStore(getreducer_Food, composeWithDevTools(
   applyMiddleware(thunk),
